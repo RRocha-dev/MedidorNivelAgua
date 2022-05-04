@@ -56,6 +56,8 @@ try:
       cor(1,0,1)
     if percentual >= 75:
       cor(0,0,1)
+    if percentual > 100:
+        percentual = 100
       
     print("Percentual: " , percentual)
       
